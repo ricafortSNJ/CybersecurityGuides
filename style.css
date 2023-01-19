@@ -1,0 +1,115 @@
+ /*  Navbar */
+
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+}
+.navbar-1, .navbar-2 {
+    display: block;
+    /* 
+    max-width: 1280px;
+    */
+}
+
+/*  Content Home */
+
+.content-home {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.column-3 {
+    width: 100%;
+}
+
+.pad {
+    padding-top: 100px;
+}
+
+.home1 {
+    padding-right: 450px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.home1-2 {
+    padding: 20px 20px 0px 20px;
+}
+
+
+/* Content Main  */
+.content-main {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.column-1 {
+    margin-top: 30px;
+}
+.column-2 {
+    margin-top: 40px;
+    padding-left: 35px;
+    padding-right: 35px; 
+}
+
+.c1-heading {
+    margin-top: 15px;
+}
+.c1-content {
+    margin-left: 15px;
+    font-size: 85%;
+}  
+.c2-heading {
+    margin-bottom: 30px;
+}
+.c2-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ /*  Footer */
+
+.footer-1 {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 80%;
+}
+.ft-disclaimer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ /*  Misc */
+a{
+    text-decoration: none;
+}
+
+.blackbg {
+    background-color: black;
+}
+.whitebg {
+    background-color: rgb(255, 255, 255);
+}
+.orange-gradientbg {
+    background: rgb(182,115,15);
+    background: linear-gradient(180deg, rgba(182,115,15,1) 35%, rgba(139,86,6,1) 68%, rgba(54,33,2,1) 100%);
+}.gray-gradientbg {
+    background: rgb(85,85,85);
+    background: linear-gradient(180deg, rgba(85,85,85,1) 82%, rgba(85,85,85,1) 95%);
+}
+.main-bg {
+    background: rgb(204, 198, 198);
+}
+.ft-bg {
+    background: rgb(54, 50, 50);
+}
+.gray {
+    color:rgb(160, 160, 160);
+}
+.white {
+    color:rgb(211, 209, 209);
+}

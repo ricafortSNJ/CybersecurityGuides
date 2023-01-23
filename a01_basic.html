@@ -6,253 +6,186 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="style.css"    />
-    <title>Cybersecurity Guides</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/x-icon" href="img/cybersecurityguides.ico">
+    <title>Learning Paths - Cybersecurity Guides</title>
 </head>
 <body>
 
 <!-- Navbar -->
-<div class="container-fluid bg-white">
+<div class="container-fluid bg-color1">
     <div class="container">
-        <div class="navbar-container">
-
             <nav class="navbar-1">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="index.html">
-                            Cybersecurity Guides
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand navtext1" href="index.html">
+                            CybersecurityGuides
                         </a>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+                        <div class="d-none d-lg-block">
+                          <div class="navsearch">Type to start learning</div>
+                          <div class="input-group">
+                              <input class="form-control border" type="search" value="search" id="example-search-input">
+                          </div>
+                        </div>
                     </div>
                 </nav>
             </nav>
-
-            <nav class="navbar-2">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-                          Learning Paths
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="a01_intro.html">Beginner</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="a02_network.html">Intermediate</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="a03_advanced.html">Advanced</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-                          Tools & Resources
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="b01_cybersecurity.html">Software</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="b02_free.html">Courses</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="b03_publications.html">Forums</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-                          Career in Cybersecurity
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="c01_career.html">Cybersecurity Roles</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="c02_cybersecurity.html">Certifications Guide</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Community</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled" href="#">News</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="f01_contact.html">Contact Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="g01_the.html">About</a>
-                      </li>
-                    </ul>
+            <nav class="navbar-2 navtext2">
+              <nav class="navbar navbar-expand-lg">
+                  <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link navtext2" style="margin-left: -8px;" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle navtext2 active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Learning Paths
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="a01_intro.html">Beginner</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="a02_network.html">Intermediate</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item " href="a03_advanced.html">Advanced</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle navtext2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Tools & Resources
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="b01_cybersecurity.html">Software</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="b02_free.html">Courses</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="b03_publications.html">Periodicals</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle navtext2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Career in Cybersecurity
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="c01_career.html">Cybersecurity Roles</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="c02_comptia.html">Certifications Guide</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link navtext2" href="d01_forum.html">Community</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link navtext2" href="e01_blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link navtext2" href="f01_team.html">About</a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
               </nav>
         </nav>
-        </div>
     </div>
-</div>
+  </div>
 <!-- Navbar -->
 
 <!-- Content -->
-    <div class="container-fluid bg-light">
-        <div class="container content-main">
-            <div class="col-lg-1  d-none d-lg-block">
-
-            </div>
+    <div class="container-fluid bg-color2">
+        <div class="container shadow min-vh-100 content-main main-font1">
             <div class="col-lg-2 column-1 d-none d-lg-block">
                 <div>
-                    <div class="row c1-heading">
-                        <h6>Beginner</h6>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a01_intro.html">
-                            <p>Intro to Cybersecurity and Why is it Important</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a01_basic.html">
-                            <p>Basic Cybersecurity Concepts and Terminology</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a01_what.html">
-                            <p>What is the CIA Triad?</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a01_common.html">
-                            <p>Common Types of Cyberattacks</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a01_cybersecurity.html">
-                            <p>Cybersecurity Awareness and Best Practices</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a01.recommendations.html">
-                            <p>Recommendations</p>
-                        </a>
-                    </div>
+                    <ul>
+                        <li class="c1-heading">
+                            <b>Beginner</b>
+                        </li>
+                        <li class="c1-content">
+                            <a class="main-font1" href="a01_intro.html">
+                                <p>Intro to Cybersecurity and Why is it Important</p>
+                            </a>
+                        </li>
+                        <li class="c1-content">
+                            <a class="main-font1" href="a01_basic.html">
+                                <p class="content-active">Basic Cybersecurity Concepts and Terminology</p>
+                            </a>
+                        </li>
+                        <li class="c1-content">
+                            <a class="main-font1" href="a01_what.html">
+                                <p>What is the CIA Triad?</p>
+                            </a>
+                        </li>
+                        <li class="c1-content">
+                            <a class="main-font1" href="a01_common.html">
+                                <p>Common Types of Cyberattacks</p>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div>
-                    <div class="row c1-heading">
-                        <h6>Intermediate</h6>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a02_network.html">
-                            <p>Network Security</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a02_web.html">
-                            <p>Web Application Security</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a02_mobile.html">
-                            <p>Mobile Security</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a02_cloud.html">
-                            <p>Cloud Security</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a02_endpoint.html">
-                            <p>Endpoint Security</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a02_blockchain.html">
-                            <p>Blockchain Security</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a02_internet.html">
-                            <p>Internet of Things (IOT) Security</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a02_cryptography.html">
-                            <p>Cryptography</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a02_recommendations.html">
-                            <p>Recommendations</p>
-                        </a>
-                    </div>
+                    <ul>
+                        <li class="c1-heading">
+                            <b>Intermediate</b>
+                        </li>
+                        <li class="c1-content">
+                            <a class="main-font1" href="a02_network.html">
+                                <p>Network Security</p>
+                            </a>
+                        </li>
+                        <li class="c1-content">
+                            <a class="main-font1" href="a02_cloud.html">
+                                <p>Cloud Security</p>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div>
-                    <div class="row c1-heading">
-                        <h6>Advanced</h6>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a03_advanced.html">
-                            <p>Advanced Malware and Advanced Persistent Threats (ATP)</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a03_penetration.html">
-                            <p>Penetration Testing</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a03_secure.html">
-                            <p>Secure Software Development</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a03_cloud.html">
-                            <p>Cloud Security Architecture</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a03_incident.html">
-                            <p>Incident Management</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a03_digital.html">
-                            <p>Digital Forensics</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a03_malware.html">
-                            <p>Malware Analysis</p>
-                        </a>
-                    </div>
-                    <div class="row c1-content">
-                        <a href="a03_recommendations.html">
-                            <p>Recommendations</p>
-                        </a>
-                    </div>
+                    <ul>
+                        <li class="c1-heading">
+                            <b>Advanced</b>
+                        </li>
+                        <li class="c1-content">
+                            <a class="main-font1" href="a03_advanced.html">
+                                <p>Advanced Malware and Advanced Persistent Threats (ATP)</p>
+                            </a>
+                        </li>
+                        <li class="c1-content">
+                            <a class="main-font1" href="a03_penetration.html">
+                                <p>Penetration Testing</p>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="col-lg-8 column-2">
-                <h2 class="display-5 c2-heading">Intro to Cybersecurity and Why is it Important</h2>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GT0daScxO18" allowfullscreen></iframe>
+                <div class="container">
+                    <h2 class="display-6 c2-heading main-heading1">Basic Cybersecurity Concepts and Terminology</h2>
+                    <p class="c2-content">Here are a few basic cybersecurity concepts and terms that are commonly used in the field:
+                    </p>
+                    <p class="c2-content">1. Encryption: Encryption is the process of converting plaintext (i.e., unencrypted data) into ciphertext (i.e., encrypted data) using a set of mathematical algorithms. The goal of encryption is to ensure that only authorized parties can read the original data.</p>
+                    <p class="c2-content">2. Firewall: A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predefined security rules. The goal of a firewall is to prevent unauthorized access to a network or computer system.</p>
+                    <p class="c2-content">3. Malware: Malware is a term used to describe any malicious software that is designed to harm a computer system, network, or device. Common examples of malware include viruses, trojans, and ransomware.
+                    </p>
+                    <p class="c2-content">4. Phishing: Phishing is a type of social engineering attack in which a malicious actor poses as a legitimate organization or individual in order to trick the victim into revealing sensitive information, such as passwords or credit card numbers.
+                    </p>
+                    <p class="c2-content">5. Social Engineering: Social engineering is the psychological manipulation of people into performing actions or divulging confidential information. A malicious person can use social engineering tactics for identity theft, financial fraud, or other unauthorized purposes.
+                    </p>
+                    <p class="c2-content">6. Virtual Private Network (VPN): A VPN is a service that creates a secure, encrypted tunnel between a device and the internet. This allows users to securely access a private network from a remote location, and helps protect the traffic from snooping or tampering.
+                    </p>
+                    <p class="c2-content">7. Vulnerability: Vulnerabilities are weaknesses in software or hardware that can be exploited by attackers to gain unauthorized access to a system or network. This can include security flaws in the design, implementation, or operation of a software or system.
+                    </p>
+                    <p class="c2-content">8. Two-Factor Authentication (2FA) : It's a technique where a user provide two means of identification, usually one something the user knows (password) and another something the user has (smartphone, fob or card).
+                    </p>
+                    <p class="c2-content">These are just a few of the basic concepts and terms used in cybersecurity. It's important to understand the basics and to continue learning and staying up to date on the latest threats and technologies in the field.</p>
                 </div>
-                <p class="c2-content">Cybersecurity refers to the practice of protecting computer systems, networks, and information from unauthorized access, use, disclosure, disruption, modification, or destruction. It involves the use of technologies, processes, and practices to prevent, detect, and respond to cyber-attacks.</p>
-                <p class="c2-content">In today's digital age, the importance of cybersecurity cannot be overstated. With the increasing amount of personal and professional information being shared and stored online, the risk of cyber-attacks has never been higher. Cybercriminals can use this information for financial gain, to steal identities, or to disrupt businesses and organizations.</p>
-                <p class="c2-content">One of the main reasons why cybersecurity is important is because of the increasing number of cyber threats. These threats come in many forms, such as viruses, malware, and ransomware, and can be used to steal sensitive information, disrupt operations, and hold data hostage.</p>
-                <p class="c2-content">Another reason why cybersecurity is important is because of the increasing use of technology in our personal and professional lives. From online banking and shopping to critical infrastructure and government operations, the dependence on technology has made us more vulnerable to cyber-attacks.</p>
-                <p class="c2-content">Cybersecurity is also important because of the growing number of connected devices and the Internet of Things (IoT). The proliferation of IoT devices, such as smart home appliances and medical devices, has greatly increased the number of potential attack vectors for cybercriminals.</p>
-                <p class="c2-content">In summary, cybersecurity is important because it helps protect individuals, businesses, and organizations from cyber-attacks and the loss of sensitive information, it helps protect the critical infrastructure and safeguard national security. It is an ongoing process that requires constant monitoring, updating, and adaptation to stay ahead of new and emerging threats.</p>
             </div>
-            <div class="col-lg-1  d-none d-lg-block">
-
+            <div class="col-lg-2  d-none d-lg-block">
             </div>
         </div>
     </div>  
@@ -262,48 +195,48 @@
 <!-- Content -->
 
 <!-- Footer -->
-<div class="container-fluid bg-black">
+<div class="container-fluid bg-color3">
     <div class="container">
         <footer class="footer-1">
             <div class="row  gray pt-3">
               <div class="col-lg-6 pt-3 pb-3">
                 <p>
                     <a href="index.html" class="gray" target="_blank">
-                        <b class="white">Cybersecurity Guides</b>
+                        <b class="white">CybersecurityGuides</b>
                     </a> 
                     is for informational purposes only and should not be considered as professional advice. The website does not guarantee the accuracy, completeness, or timeliness of the information provided. The website may contain links to other websites, but is not responsible for the content or privacy practices of those websites.
                 </p>
               </div>
               <div class="col-lg-2 pt-3 ps-4 gray">
                 <div>
-                    <a href="#" class="gray" target="_blank">
+                    <a href="f01_team.html" class="gray" target="_blank">
                         <p>About</p>
                     </a>
                 </div>
                 <div>
-                    <a href="#" class="gray" target="_blank">
-                        <p>Contact</p>
+                    <a href="f02_contact.html" class="gray" target="_blank">
+                        <p>Contact Us</p>
                     </a>
                 </div>
                 <div>
-                    <a href="#" class="gray" target="_blank">
+                    <a href="f03_terms.html" class="gray" target="_blank">
                         <p>Terms of Service</p>
                     </a>
                 </div>
               </div>
               <div class="col-lg-2 pt-3 ps-4 gray">
                 <div>
-                    <a href="#" class="gray" target="_blank">
+                    <a href="f04_privacy.html" class="gray" target="_blank">
                         <p>Privacy Policy</p>
                     </a>
                 </div>
                 <div>
-                    <a href="#" class="gray" target="_blank">
+                    <a href="f05_copyright.html" class="gray" target="_blank">
                         <p>Copyright Policy</p>
                     </a>
                 </div>
                 <div>
-                    <a href="#" class="gray" target="_blank">
+                    <a href="f06_licenses.html" class="gray" target="_blank">
                         <p>Licenses</p>
                     </a>
                 </div>
@@ -322,12 +255,12 @@
                             /> Instagram</a>
                         </div>
                         <div class="row">
-                            <a href="https://www.instagram.com/" class="gray" target="_blank"
+                            <a href="https://discord.com/" class="gray" target="_blank"
                               ><img src="img/discord.png" style="width: 15px"
                             /> Discord</a>
                         </div>
                         <div class="row">
-                            <a href="https://www.instagram.com/" class="gray" target="_blank"
+                            <a href="https://github.com/" class="gray" target="_blank"
                               ><img src="img/github.png" style="width: 15px"
                             /> Github</a>
                         </div>
@@ -346,8 +279,8 @@
             </div>
           </footer>
     </div>
-</div>
-<!-- Footer -->
+  </div>
+  <!-- Footer -->
 
 
 </body>

@@ -1,5 +1,13 @@
- /*  Navbar */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Serif&family=Public+Sans:wght@300&display=swap');
 
+/*-------BODY-------*/
+
+/*-------NAVBAR-------*/
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 .navbar-container {
     display: flex;
     flex-direction: column;
@@ -7,37 +15,194 @@
 .navbar-1, .navbar-2 {
     display: block;
     /* 
+    margin-right: -100px;
     max-width: 1280px;
     */
 }
+.container-fluid {
+    padding: 0;
+}
+.navtext1 {
+    color: rgba(255, 219, 87);
+    font-family: 'Bree Serif', serif;
+    font-size: 150%;
+}
+.navtext2 {
+    color:rgb(255, 255, 255);
+    font-family: 'Public Sans', sans-serif;
+}
+.navhome {
+    margin-left: -8px;
+}
+.navsearch {
+    padding-top: 10px;
+    font-size: 70%;
+    font-family: 'Public Sans', sans-serif;
+    color: rgba(255, 219, 87, 0.75);
+}
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.97);
+}
+.dropdown:active {
+    color: rgba(255, 219, 87);
+}
+.dropdown:hover {
+    color: rgba(255, 219, 87);
+}
+.dropdown-item {
+    background-color: rgba(0, 0, 0, 0.97);
+    color:rgb(255, 255, 255);
+    font-family: 'Public Sans', sans-serif;
+}
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.97);
+    color: rgba(255, 219, 87);
+}
+.nav-link:link {
+    color: inherit;
+}
+.nav-link:visited {
+    color: inherit;
+}
+.nav-link:hover {
+    color: rgba(255, 219, 87);
+}
+.nav-link:active {
+    color: rgba(255, 219, 87);
+}
+.disabled {
+    color:rgb(255, 255, 255);
+}
+.active {
+    background-color: rgba(255, 219, 87, 0.75);
+}
+.navbar-toggler-icon {
+    background-image: url("img/cg_icon.png");
+}
+.navbar-toggler {
+    border-style: solid;
+    border-color: rgba(255, 219, 87,0.9);
+    color: rgba(255, 219, 87,0.9);
+}
 
-/*  Content Home */
 
+/*-------HOME-------*/
 .content-home {
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .column-3 {
     width: 100%;
 }
-
 .pad {
     padding-top: 100px;
 }
-
-.home1 {
-    padding-right: 450px;
-    padding-top: 250px;
-    padding-bottom: 250px;
-}
-
+.home-font1 {
+    color: rgba(255, 219, 87, 0.8);
+    font-family: 'Public Sans', sans-serif;
+ }
 .home1-2 {
-    padding: 20px 20px 0px 20px;
+    padding: 20px 20px 0px 0px;
 }
+.home-bg1 {
+    background: rgb(103,103,103);
+    background: linear-gradient(0deg, rgba(103,103,103,1) 0%, rgba(0,0,0,1) 100%);
+}
+.home2-heading {
+    color: rgba(255, 219, 87);
+    font-family: 'Public Sans', sans-serif;
+    padding: 20px 20px 0px 0px;
+}
+.home2-text1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Public Sans', sans-serif;
+    padding: 20px 20px 0px 0px;
+}
+.home2-text2 {
+    color: rgba(255, 255, 255, 0.65);
+    font-family: 'Public Sans', sans-serif;
+    padding: 20px 20px 0px 0px;
+}
+.btn-custom1 {
+    background-color: rgba(255, 219, 87);
+}
+.home-box0 {
+    width: 120px;
+}
+.home-box1 {
+    width: 80px;
+    height: 80px;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 10px 10px 5px rgba(255, 219, 87, 0.2);
+}
+/*-------MAIN-------*/
+.content-active {
+    color: rgba(255, 219, 87);
+}
+.fill1 {
+    padding-top: 350px;
+    padding-bottom: 350px;
+}
+/*-------FOOTER-------*/
+.footer-1 {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 80%;
+}
+.ft-disclaimer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*-------MISC-------*/
 
-
+.bg-color1 {
+    background-color: rgba(0, 0, 0, 0.97);
+}
+.bg-color2 {
+    background: rgb(26,26,27);
+    background: linear-gradient(175deg, rgba(26,26,27,1) 100%, rgba(26,26,27,1) 100%);
+}
+.bg-color3 {
+    background-color: black;
+}
+.bg-color4 {
+    background-color: rgb(255, 255, 255);
+}
+.bg-pic1 {
+    background-image: url('img/bgblue.jpg');
+}
+.text-black {
+    color: black;
+}
+.main-font1 {
+    font-family: 'Public Sans', sans-serif;
+    color:rgb(233, 235, 252);
+}
+.main-heading1 {
+    font-family: 'PT Serif', serif;
+    color:rgba(210, 215, 249, 0.62);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a:hover {
+    color: rgba(255, 219, 87);
+}
+.contact-border {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-color: rgba(255, 219, 87, 0.7);
+}
 /* Content Main  */
 .content-main {
     display: flex;
@@ -51,40 +216,41 @@
 }
 .column-2 {
     margin-top: 40px;
-    padding-left: 35px;
-    padding-right: 35px; 
 }
-
 .c1-heading {
-    margin-top: 15px;
+    margin-top: 12px;
+    margin-top: 6px;
+    padding-top: 12px;
+    padding-left: 8px;
+    font-size: 90%;
 }
 .c1-content {
-    margin-left: 15px;
-    font-size: 85%;
-}  
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: -10px;
+    font-size: 80%;
+    font-weight: bold;
+    opacity: 0.85;
+}
+.c1-content2 {
+    margin-left: 40px;
+}
 .c2-heading {
     margin-bottom: 30px;
+    padding-left: 8px;
 }
 .c2-content {
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 110%;
 }
 
  /*  Footer */
 
-.footer-1 {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    font-size: 80%;
-}
-.ft-disclaimer {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
- /*  Misc */
-a{
+
+/*  Misc */
+a {
     text-decoration: none;
 }
 
@@ -113,3 +279,31 @@ a{
 .white {
     color:rgb(211, 209, 209);
 }
+
+ /*  Background/Fonts */
+
+ .navbar-bg1 {
+    background: rgb(13,13,13);
+    background: linear-gradient(97deg, rgba(13,13,13,1) 0%, rgba(10,10,10,1) 100%);
+ }
+ .navbar-text1 {
+    color: wheat;
+ }
+ .navbar-font1 {
+    font-family: sans-serif;
+ }
+ .content-bg1 {
+    background: rgb(26,26,27);
+    background: linear-gradient(175deg, rgba(26,26,27,1) 100%, rgba(26,26,27,1) 100%);
+ }
+ .content-text1 {
+    color: rgb(245, 236, 220);
+ }
+ .content-font1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+ .footer-bg1 {
+    background: rgb(13,13,13);
+    background: linear-gradient(97deg, rgba(13,13,13,1) 0%, rgba(10,10,10,1) 100%);
+ }
+

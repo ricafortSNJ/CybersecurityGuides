@@ -202,7 +202,53 @@ a:hover {
     padding-bottom: 15px;
     border-style: solid;
     border-color: rgba(255, 219, 87, 0.7);
+    box-shadow: 10px 10px 5px rgba(255, 219, 87, 0.2);
 }
+.contact-text1 {
+    color: rgba(255, 219, 87, 0.8);
+    font-family: 'Public Sans', sans-serif;
+}
+/* Newsletter  */
+.home-newsletter {
+    padding: 75px 0;
+}
+
+.home-newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.home-newsletter .single h2 {
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.home-newsletter .single .form-control {
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 219, 87);
+    border-radius: 20px 0 0 20px;
+    box-shadow: 10px 10px 5px rgba(255, 219, 87, 0.2);
+}
+
+.home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: rgba(255, 219, 87, 0.7);
+}
+
+.home-newsletter .single .btn {
+    min-height: 50px;
+    border-radius: 0 20px 20px 0;
+    background: #000000;
+    color: rgba(255, 219, 87);
+    box-shadow: 10px 10px 5px rgba(255, 219, 87, 0.2);
+}
+
 /* Content Main  */
 .content-main {
     display: flex;
